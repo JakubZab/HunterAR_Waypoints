@@ -1,0 +1,4 @@
+#Thu Aug 29 20:58:04 CEST 2024
+base.0=F\:\\Unity_world\\HunterAR_WAYPOINT\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

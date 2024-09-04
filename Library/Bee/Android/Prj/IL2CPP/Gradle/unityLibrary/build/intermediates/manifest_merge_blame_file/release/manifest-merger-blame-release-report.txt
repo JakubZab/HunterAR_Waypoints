@@ -1,0 +1,144 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="24"
+7-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="30" />
+8-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+9
+10    <uses-feature android:glEsVersion="0x00030000" />
+10-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:3-52
+10-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:17-49
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-65
+12-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:20-62
+13
+14    <uses-feature
+14-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-88
+15        android:name="android.hardware.touchscreen"
+15-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:17-60
+16        android:required="false" />
+16-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:61-85
+17    <uses-feature
+17-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-99
+18        android:name="android.hardware.touchscreen.multitouch"
+18-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:17-71
+19        android:required="false" />
+19-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:72-96
+20    <uses-feature
+20-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-108
+21        android:name="android.hardware.touchscreen.multitouch.distinct"
+21-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-80
+22        android:required="false" />
+22-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:81-105
+23
+24    <uses-permission android:name="android.permission.CAMERA" />
+24-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-63
+24-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:20-60
+25
+26    <uses-feature
+26-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-85
+27        android:name="android.hardware.camera.ar"
+27-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-58
+28        android:required="true" />
+28-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:59-82
+29    <uses-feature
+29-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-83
+30        android:name="com.google.ar.core.depth"
+30-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:17-56
+31        android:required="true" />
+31-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:57-80
+32
+33    <application android:extractNativeLibs="true" >
+33-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-19:17
+33-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+34        <activity
+34-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
+35            android:name="com.unity3d.player.UnityPlayerActivity"
+35-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+36            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+36-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:180-361
+37            android:hardwareAccelerated="false"
+37-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:397-432
+38            android:launchMode="singleTask"
+38-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:148-179
+39            android:resizeableActivity="false"
+39-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:362-396
+40            android:screenOrientation="fullUser"
+40-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-147
+41            android:theme="@style/UnityThemeSelector" >
+41-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+42            <intent-filter>
+42-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
+43                <action android:name="android.intent.action.MAIN" />
+43-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+43-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+45-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+46            </intent-filter>
+47
+48            <meta-data
+48-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
+49                android:name="unityplayer.UnityActivity"
+49-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
+50                android:value="true" />
+50-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
+51            <meta-data
+51-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
+52                android:name="android.notch_support"
+52-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
+53                android:value="true" />
+53-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+54        </activity>
+55
+56        <meta-data
+56-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-69
+57            android:name="unity.splash-mode"
+57-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
+58            android:value="0" />
+58-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:49-66
+59        <meta-data
+59-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-74
+60            android:name="unity.splash-enable"
+60-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-50
+61            android:value="True" />
+61-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:51-71
+62        <meta-data
+62-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-78
+63            android:name="unity.launch-fullscreen"
+63-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-54
+64            android:value="True" />
+64-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:55-75
+65        <meta-data
+65-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-81
+66            android:name="notch.config"
+66-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-43
+67            android:value="portrait|landscape" />
+67-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:44-78
+68        <meta-data
+68-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-84
+69            android:name="unity.auto-report-fully-drawn"
+69-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-60
+70            android:value="true" />
+70-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:61-81
+71        <meta-data
+71-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-88
+72            android:name="unityplayer.SkipPermissionsDialog"
+72-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-64
+73            android:value="true" />
+73-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:65-85
+74        <meta-data
+74-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-77
+75            android:name="com.google.ar.core"
+75-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-49
+76            android:value="required" />
+76-->F:\Unity_world\HunterAR_WAYPOINT\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:50-74
+77    </application>
+78
+79</manifest>

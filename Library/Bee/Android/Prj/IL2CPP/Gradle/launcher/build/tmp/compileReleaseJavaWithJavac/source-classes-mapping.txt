@@ -1,0 +1,2 @@
+com/ZabaGame/Hunter_AR_WAYPOINT/BuildConfig.java
+ com.ZabaGame.Hunter_AR_WAYPOINT.BuildConfig
